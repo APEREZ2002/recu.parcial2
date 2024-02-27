@@ -1,0 +1,48 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.navbar-logo {
+  width: 50px; 
+  height: auto;
+}
+
+
+.text-center {
+  color: #333; 
+}
+
+
+.image-description-container p {
+  text-align: center;
+  margin-top: 10px;
+  color: #555; 
+}
+
+
+.fixed-height-image {
+  height: 300px; 
+  object-fit: cover; 
+  margin-bottom: 15px; 
+  width: 500px;
+}
+
+
+footer {
+  background-color: #222; 
+}
+
+footer p {
+  margin: 0; 
+  padding: 10px 0;
+  font-size: 0.9rem; 
+}
+
+
+@media (max-width: 767px) {
+  .fixed-height-image {
+      height: 150px; 
+  }
+}

@@ -1,0 +1,48 @@
+/* estilos.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.navbar-logo {
+  width: 100px; /* Ajusta este valor según necesites */
+  height: auto; /* Esto mantiene la proporción del logo */
+  margin-left: 40px;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.galeria .row {
+  margin-top: 20px;
+}
+
+.galeria img {
+  width: 250px; /* Ajusta el ancho deseado */
+  height: 150px; /* Ajusta la altura deseada */
+  object-fit: cover; /* Esto asegura que las imágenes se recorten para ajustarse al tamaño sin distorsionarse */
+}
+
+/* Clase para ajustar el tamaño fijo de las imágenes, si es necesario */
+.fixed-size-image {
+  width: 100%;
+  height: 250px; /* Ajusta esto según necesites */
+  object-fit: cover; /* Esto asegura que la imagen se ajuste bien al tamaño sin deformarse */
+}
+
+.texto-desplazado {
+  margin-top: 20px; /* Ajusta este valor según necesites */
+}
+
+footer {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

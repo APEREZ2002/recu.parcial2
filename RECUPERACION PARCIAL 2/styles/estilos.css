@@ -1,0 +1,126 @@
+
+
+ /* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Estilo para el contenido principal */
+  .main img {
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  
+  
+.seccion2 img{
+    height: 250px;
+    width: 450px ;
+    justify-content: center;
+    padding-left: 150px;
+}
+
+.violin {
+    justify-content: right;
+
+
+}
+.seccion1texto{
+  justify-content: left;
+  padding-left: 200px;
+
+}
+
+main
+
+main h1{
+    text-align: center;
+
+
+}
+
+.titulo h2{
+    text-align: center;
+}
+  
+  
+main img {
+    max-inline-size: 100%;
+    height:  max-content;
+    
+}
+
+.main img {
+    max-inline-size: 150%;
+   
+    
+}
+
+
+  /* Estilo para el formulario */
+  form {
+    width: 300px; /* Ancho del formulario */
+    margin: 20px;
+  }
+  
+  /* Estilo para los campos del formulario */
+  form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Estilo para el botón del formulario */
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  a{
+    height: 5%;
+    width: 5%;
+  }
+  
+  p{
+    text-align: center;
+
+  }
+
+  .secciontienda1 img{
+    padding-left: 200px;
+  }
+  
+  .secciontienda1 p{
+
+    text-align: center;
+    padding-right: 1000px;
+  } 
+
+  .secciontienda1{
+
+    justify-content: center;
+  }
