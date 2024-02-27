@@ -1,49 +1,46 @@
-/* Estilos generales */
 body {
   font-family: Arial, sans-serif;
 }
 
-/* Logo del navbar */
 .navbar-logo {
-  width: 50px; /* Ajusta el tamaño según tus necesidades */
+  width: 50px; 
   height: auto;
 }
 
-/* Texto de explicación */
+
 .text-center {
-  color: #333; /* Color oscuro para mejorar la legibilidad */
+  color: #333; 
 }
 
-/* Contenedores de descripción de imágenes */
 .image-description-container p {
   text-align: center;
   margin-top: 10px;
-  color: rgb(32, 32, 32); /* Color más suave para el texto */
+  color: rgb(32, 32, 32); 
 }
 
 /* Imágenes */
 .fixed-height-image {
-  height: 200px; /* Altura fija para todas las imágenes */
-  object-fit: cover; /* Cubre el área sin perder la proporción */
-  margin-bottom: 15px; /* Espacio debajo de cada imagen */
+  height: 200px; 
+  object-fit: cover; 
+  margin-bottom: 15px; 
   width: 150px;
 }
 
 /* Footer */
 footer {
-  background-color: rgb(0, 0, 0); /* Más oscuro que el predeterminado de Bootstrap */
+  background-color: rgb(0, 0, 0); 
 color: white;
 }
 
 footer p {
-  margin: 0; /* Eliminar márgenes predeterminados */
-  padding: 10px 0; /* Ajuste de padding para mejor apariencia */
-  font-size: 0.9rem; /* Tamaño de letra más pequeño */
+  margin: 0; 
+  padding: 10px 0; 
+  font-size: 0.9rem; 
 }
 
-/* Ajustes de responsive */
+
 @media (max-width: 767px) {
   .fixed-height-image {
-      height: 150px; /* Altura menor para dispositivos móviles */
+      height: 150px; 
   }
 }
